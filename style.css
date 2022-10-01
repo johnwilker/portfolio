@@ -80,7 +80,7 @@ aside .profile div {
 aside .profile ul {
     flex-direction: column;
     padding-left: .5rem;
-    margin: 1rem 0 1rem 1rem;
+    margin: 16px 0 16px 16px;
 }
 
 aside .profile li {
@@ -91,6 +91,7 @@ aside .profile a {
     display: flex;
     color: #837e9f;
     gap: .8rem;
+    align-items: center;
 }
 
 aside .profile-tecnology div{
@@ -201,17 +202,15 @@ article {
     gap: 30px;
 }
 
-article .my-onix {
-    /* width: 28.8rem; */
-}
-
 .my-onix div img {
     height: 24px;
     margin: 16px 16px 0 16px;
 }
 
-.my-onix div div div li img {
-    padding-left: 128px;
+.my-onix span {
+    position: absolute;
+    padding-top: 20px;
+    font-weight: 700;
 }
 
 .my-onix div {
@@ -228,11 +227,6 @@ article .my-onix {
     margin: 16px 0 16px 16px;
 }
 
-.my-onix div div p {
-    padding-top: 16px;
-    margin: 0;
-}
-
 .my-onix div ul {
     display: flex;
 }
@@ -241,9 +235,12 @@ article .my-onix {
     display: flex;
 }
 
-.my-onix div div {
-    display: flex;
-    height: 48px;
+.my-onix div li p {
+    margin-left: 0;
+}
+
+.my-onix div li:last-child {
+    padding-left: 128px;
 }
 
 .recent-posts div {
@@ -292,6 +289,33 @@ article .my-onix {
     display: flex;
     gap: 10px;
     font-size: 14px;
+}
+
+.credits {
+    display: flex;
+    position: absolute;
+    bottom: -935px;
+    left: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    color:  #8F8F8F;
+    margin-bottom: 0px;
+}
+
+.credits ul {
+    display: flex;
+    gap: 8px;
+    padding-left: 8px;
+}
+
+.credits img {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.credits img:hover {
+    transform: scale(1.1);
 }
 
 .profile-name div:hover,
