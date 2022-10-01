@@ -94,6 +94,10 @@ aside .profile a {
     align-items: center;
 }
 
+aside .profile img:hover {
+    transform: scale(1.2);
+}
+
 aside .profile-tecnology div{
     border-radius: 17.6px;
     background-color: #302F3D;
