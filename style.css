@@ -305,4 +305,5 @@ article {
 .recent-posts div:hover,
 .case:hover  {
     border-left: 6px solid #00FF00;
+    transition-delay: .1s;
 }
