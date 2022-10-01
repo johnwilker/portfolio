@@ -291,33 +291,6 @@ article {
     font-size: 14px;
 }
 
-.credits {
-    display: flex;
-    position: absolute;
-    bottom: -935px;
-    left: 800px;
-    justify-content: center;
-    align-items: center;
-    margin: 8px;
-    color:  #8F8F8F;
-    margin-bottom: 0px;
-}
-
-.credits ul {
-    display: flex;
-    gap: 8px;
-    padding-left: 8px;
-}
-
-.credits img {
-    display: flex;
-    padding-bottom: 12px;
-}
-
-.credits img:hover {
-    transform: scale(1.1);
-}
-
 .profile-name div:hover,
 .profile div:hover,
 .profile-tecnology div:hover,
